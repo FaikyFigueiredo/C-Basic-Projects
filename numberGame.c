@@ -11,6 +11,7 @@ int searchInArray(int numbers[8], int number){
     }
     return postion;
 }
+
 int main(){
     srand((int)time(NULL));
     int array[8] , result , num;
