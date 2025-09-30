@@ -20,7 +20,7 @@ void sumOfPrimes(unsigned int num1 , unsigned int num2){
 }
 int main(){
     unsigned int number1, number2;
-    printf("Put two numbers and I'll sum the prime numbers in their period(The first number have to be the less)");
+    printf("Put two numbers and I'll sum the prime numbers in their period(The first number have to be the lesser)");
     scanf("%d %d", &number1, &number2);
     sumOfPrimes(number1,number2);
     return 0;
