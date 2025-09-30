@@ -16,11 +16,11 @@ void sumOfPrimes(unsigned int num1 , unsigned int num2){
     for(unsigned int i = num1 ; i < num2; i++){
         result += isPrime(i);
     }
-    printf("The sum of the prime numbers in the period between %d and %d is %d", num1, num2, result);
+    printf("The sum of the prime numbers in the period between %d and %d is %d\n", num1, num2, result);
 }
 int main(){
     unsigned int number1, number2;
-    printf("Put two numbers and I'll sum the prime numbers in their period(The first number have to be the lesser)");
+    printf("Put two numbers and I'll sum the prime numbers in their period(The first number have to be the lesser)\n");
     scanf("%d %d", &number1, &number2);
     sumOfPrimes(number1,number2);
     return 0;
