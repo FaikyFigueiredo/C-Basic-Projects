@@ -12,12 +12,12 @@ void tradeLetter(char *str, char toTrade , char theTrade){
 }
 int main(){
 	char str[100], off = '\0', in = '\0';
-	printf("Put a word and after say which letter i have to trade to what");
+	printf("Put a word and after say which letter i have to trade to what\n");
 	fgets(str,100,stdin);
-	printf("Now the letter to trade");
+	printf("Now the letter to trade\n");
 	while(off == '\0'|| off == '\n')
 		scanf("%c", &off);
-	printf("And, finally, the letter to replace");
+	printf("And, finally, the letter to replace\n");
 	while(in == '\0'|| in == '\n')
 		scanf("%c", &in);
 	tradeLetter(str, off, in);
